@@ -1,0 +1,126 @@
+.SidebarRight{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.SidebarRightHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SidebarRightHeader h4{
+    margin: 0;
+
+}
+
+.SidebarRightHeader svg{
+    font-size: 18px;
+}
+
+ul .SidebarRightBodyopt{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    list-style: circle;
+
+}
+
+ul .SidebarRightBodyopt li{
+    margin-bottom: 10px;
+}
+
+.SidebarRightBody{
+    margin-top: 15px;
+}
+
+ul .SidebarRightBodyopt h4{
+    margin: 0px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+ul .SidebarRightBodyopt p{
+    margin: 0px;
+    font-size: 12px;
+    color: #959595;
+
+}
+
+.SidebarRightTop{
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20rem;
+    height: 30rem;
+}
+
+
+/* ...............................bottom ................. */
+
+.Sidebarbottom{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 60px;
+}
+
+.SidebarbottomHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SidebarRightHeader h4{
+    margin: 0;
+
+}
+
+.SidebarRightHeader svg{
+    font-size: 18px;
+}
+
+ul .SidebarbottomBodyopt{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    list-style: circle;
+}
+
+
+
+.SidebarbottomBody{
+    margin-top: 15px;
+}
+
+.SidebarbottomBody div{
+    padding: 7px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    height: 1.1rem;
+    width: 7rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;   
+}
+
+
+
+.SidebarbottomTop{
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;  
+}
+
+
+
+

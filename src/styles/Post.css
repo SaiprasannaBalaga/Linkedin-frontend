@@ -1,0 +1,73 @@
+.Post{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.PostHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ .PostHeaderLeft{
+    display: flex;
+    align-items: center;
+
+}
+
+.PostprofileData h3{
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+.PostprofileData p{
+    font-size: 10px;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+.PostBody{
+    font-size: 12px;
+    padding: 20px 0px;
+
+}
+
+.PostBody p{
+    font-size: 14px;
+    
+}
+
+.postfooter{
+    display: flex;
+  
+    border-top: 1px solid #a0a0a0;
+    padding-top: 10px;
+    margin-top: 20px;
+
+}
+
+.postfooteroption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+.postfooter .postfooteroption svg{
+   margin: 10px;
+   color: #333;
+
+}
+
+.postfooter .postfooteroption span{
+    color: #686868;
+    font-size: 12px;
+ }

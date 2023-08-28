@@ -1,0 +1,43 @@
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid grey;
+    margin: 3rem;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.msgdivone{
+    width: 25rem;
+    height: 50rem;
+   
+   
+}
+
+.mess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.msginput{
+    display: flex;
+    border-radius: 5px ;
+  border-color: white; 
+}
+
+.msgother{
+    display: flex;
+}
+
+.msginput input{
+  border: none;
+    width: 100%;
+ 
+}
+
+.msgother div  {
+    display: flex;
+    gap: 1rem;    
+}

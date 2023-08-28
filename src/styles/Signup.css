@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap');
+.Signupdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding-top: 10rem;
+}
+
+.signup {
+    width: 25rem;
+    height: 35rem;
+    border: 2px solid rgb(156, 154, 154);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px grey;
+    text-align: center;
+
+}
+
+.logo img {
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.signup h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+
+.signup p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.inputs input {
+    margin-top: 1rem;
+    width: 70%;
+    height: 3rem;
+    flex-direction: column;
+    border-radius: 5px;
+    border-color: #0a66c2;
+}
+
+.SingUpBtn {
+    width: 70%;
+    height: 3rem;
+    background-color: #0a66c2;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+}

@@ -1,0 +1,78 @@
+.Timeline {
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    margin: 0px 30px;
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+}
+
+.video{
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+}
+
+.TimelineForm {
+    display: flex;
+
+}
+
+.Timelineinput {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+
+.Timeline .Timelineinput form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.Timeline .Timelineinput form input[type='text'] {
+    flex: 1;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-left: 10px;
+    height: 40px;
+    outline: 0;
+    border: 1px solid;
+}
+
+.Timeline .Timelineinput form input[type='submit'] {
+    display: none;
+}
+
+.Timelineoptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.Timelineoptions .options {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.Timelineoptions .options:hover {
+    background-color: #eee;
+}
+
+.Timelineoptions .options svg {
+    margin-right: 10px;
+}

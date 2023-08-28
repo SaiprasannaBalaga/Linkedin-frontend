@@ -1,0 +1,69 @@
+.Header{
+    display: flex;
+    background-color: white;
+    padding: 10px 15px;
+    justify-content: space-between;
+    height: 35px;
+    position: sticky;
+    margin-bottom: 20px;
+    top: 0;
+    z-index: 99;
+}
+
+.HeaderLeft{
+    display: flex;
+    margin-left: 10rem;
+
+}
+
+.HeaderLeft img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.HeaderSearch{
+    display: flex;
+    align-items: center;
+    background-color: #eef3f8;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.HeaderSearch input{
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    min-width: 220px;
+}
+
+
+/* .................................Right side ................. */
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.Headeropt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+    cursor: pointer;
+    position: relative;
+    color: rgb(90, 90, 90);
+
+}
+
+.Headeropt:first-child{
+    color: black;
+}
+
+.Headeropt:first-child:before{
+    content: '';
+    position: absolute;
+    left: 1px;
+    right: -5px;
+    background-color: #131313;
+    height: 3px;
+    bottom: -9px;
+}
+

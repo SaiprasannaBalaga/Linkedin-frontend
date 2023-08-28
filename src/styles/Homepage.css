@@ -1,0 +1,44 @@
+.Homepage {
+    display: flex;
+
+}
+
+.headerandoptions {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10rem;
+    background: fixed;
+    background-size: cover;
+}
+
+.barstimeline {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  margin-left: 10rem;
+   position: relative;
+   overflow: hidden;
+   z-index: -1;
+}
+
+
+.timelineee {
+    margin-top: 5rem;
+   overflow: hidden;
+   z-index: 1000;
+   margin-left: 1rem;
+}
+
+.sidebarr {
+  top: 60px;
+position: sticky; 
+margin-right: 5rem; 
+}
+
+.sidebarrRight {
+   margin-top: 5rem;
+   margin-left: 7rem;
+    
+}

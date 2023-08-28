@@ -1,0 +1,59 @@
+
+.Logindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.inputss {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 5px;
+    border-color: #0a66c2;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.inputss h3 {
+    position: absolute;
+    top: 5%;
+    font-size: 2rem;
+    color: rgb(8, 8, 8);
+}
+
+.inputss h3:hover {
+    color: rgb(38, 34, 240);
+}
+
+.inputss input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: transparent;
+   color: rgb(19, 18, 18);
+   font-size: 1rem;
+   text-align: center;
+
+}
+
+.inputss button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #4e759d;
+    border-color: rgb(15, 12, 12);
+    margin-top: 2rem;
+}
+
+.inputss button:hover{
+    color: white;
+   
+}
+
